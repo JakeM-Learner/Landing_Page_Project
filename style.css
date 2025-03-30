@@ -93,7 +93,7 @@ button {
     flex-shrink: 0;
 }
 
- img {
+.img1 {
     height: auto;
     width: 100%;
 }
@@ -107,6 +107,7 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex-grow: 0;
 }
 
 .s2header {
@@ -115,11 +116,15 @@ button {
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
+    padding: 16px 0px;
+    flex-grow: 0;
 }
 
 .s2box {
     display: flex;
     justify-content: center;
+    gap: 16px;
+    flex-grow: 0;
 }
 
 .s2sub {
@@ -127,6 +132,22 @@ button {
     flex-direction: column;
     align-items: center;
     gap: 16px;
+    width: 200px;
+    flex-grow: 0;
+
+}
+
+.img-box {
+    width: 200px;
+    height: 200px;
+    flex-grow: 0;
+}
+
+.imgs {
+    width: 200px;
+    height: 200px;
+    border-radius: 6px;
+    border: 2px solid #f63838;
 }
 
 
